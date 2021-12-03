@@ -6,6 +6,7 @@ const StyledFooter = styled.footer`
     display: flex;
     justify-content: space-around;
     padding: 4rem 0;
+    
 
     img{
         width:7rem;

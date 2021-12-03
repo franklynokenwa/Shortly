@@ -14,6 +14,8 @@ const StyledLinkSection = styled.section`
     border-radius: 10px;
     margin-left: 4rem;
     margin: 4rem;
+    position: relative;
+    top: 8rem;
     
     div{
         display: flex;

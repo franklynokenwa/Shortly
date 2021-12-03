@@ -7,10 +7,12 @@ import fullyCustomizableLogo from '../images/icon-fully-customizable.svg'
 import StyledContainer from './styles/Container.styled'
 import DetailsContainer2 from './styles/DetailsContainer2.styled'
 import DetailsContainer3 from './styles/DetailsContainer3.styled'
+import ShortenedLink from './ShortenedLink'
 
 const ShortlyDetails = () => {
     return (
         <StyledDetailsSection>
+            <ShortenedLink/>
             <section>
                 <h1>Advanced Statistics</h1>
                 <p>Track how your links are performing across the web with our advanced statistics dashboard</p>

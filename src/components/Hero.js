@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <StyledHeroSection>
             <div>
-                <h1>MORE THAN JUST SHORTHER LINKS</h1>
+                <h1>MORE THAN JUST SHORTER LINKS</h1>
                 <p>Build your Brand's recognition and get detailed insights on how your links are performing </p>
                 <Button name="Get Started"
                 backgroundColor="hsl(180, 66%, 49%)"

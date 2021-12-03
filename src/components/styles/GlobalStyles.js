@@ -8,6 +8,7 @@ const GlobalStyles = createGlobalStyle`
         font-weight: 500;
         font-size: 18px;
         color:hsl(0, 0%, 75%);
+        
 
     }
 
