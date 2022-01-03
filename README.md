@@ -17,7 +17,7 @@ This is an app that allow users to shorten urls
 ![](https://github.com/franklynwisdom/Shortly/blob/master/public/shortly-screenshot.PNG)
 
 ### Link
-- Live Site URL: (https://franklynwisdom.github.io/shortly/)
+- Live Site URL: (https://franklynwisdom.github.io/Shortly/)
 
 ### Built with
 
