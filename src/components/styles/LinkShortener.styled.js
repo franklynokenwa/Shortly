@@ -17,7 +17,7 @@ const StyledLinkSection = styled.section`
     position: relative;
     top: 8rem;
     
-    div{
+    form{
         display: flex;
         justify-content: space-around;
         align-items: center;

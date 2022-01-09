@@ -8,22 +8,22 @@ import LinkShortener from './components/LinkShortener';
 import ShortlyDetails from './components/ShortlyDetails';
 import Boost from './components/Boost';
 import Footer from './components/Footer';
-import axios from 'axios';
 import ApiDataContext from './components/ApiDataContext';
 
 
 const App = () => {
-    const [url, setUrl] = useState("");
-    const initialState = { apiData: ""};
+ //   const [newDataFunction, setNewDataFunction] = useState("");
 
-  const ACTIONS = {
+   //  const initialState = { apiData: ""};
+
+ /* const ACTIONS = {
     GET_DATA_FROM_API: "get-data-from-api",
     
-  }
-    const [state, dispatch] = useReducer(reducer, initialState)
-    const {apiData} = state;
+  }*/
+  /*  const [state, dispatch] = useReducer(reducer, initialState)
+    const {apiData} = state; */
 
-
+/*
     function reducer(state, action) {
       switch(action.type){
         case ACTIONS.GET_DATA_FROM_API :
@@ -34,11 +34,12 @@ const App = () => {
         default:
           return state;
       }
-    }
+    } */
+    /*
 
     function getUrl(event){        
-        setUrl(event.target.value) 
-        console.log(event.target.value)           
+      setUrl(event.target.value);
+      console.log(event.target.value);           
     }
 
 
@@ -49,23 +50,20 @@ const App = () => {
           dispatch({type: ACTIONS.GET_DATA_FROM_API, data: response.data});
         })
        } 
-       
-       getData();
+       setNewDataFunction(getData)
     }, [ACTIONS.GET_DATA_FROM_API,url,]);
-    console.log(apiData.result);
+    console.log(apiData.result); */
   
   return (
-    <ApiDataContext.Provider value={apiData.result}>
+    <div>
       <GlobalStyles/>
       <NavBar/>
       <Hero/>
-      <LinkShortener
-      getUrl={getUrl}
-      />
+      <LinkShortener/>
       <ShortlyDetails/>
       <Boost/>
       <Footer/>
-    </ApiDataContext.Provider>
+    </div>
   )
 }
 

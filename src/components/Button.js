@@ -7,6 +7,7 @@ const Button = (props) => {
             backgroundColor={props.backgroundColor}
             borderRadius={props.borderRadius}
             color={props.color}
+            type={props.type}
             >
             {props.name}
         </Styledbutton>
